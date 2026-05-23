@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} · {{ config.title }}{% endblock %}
+
+{% block content %}
+<article class="section-index">
+  <header class="section-index__header">
+    <p class="eyebrow">Columna de opinión</p>
+    <h1>{{ section.title }}</h1>
+  </header>
+
+  <ol class="section-index__list">
+    {% for page in section.pages %}
+    <li>
+      <a href="{{ page.permalink }}" class="section-index__item">
+        <span class="section-index__num">{{ page.extra.seccion | default(value=loop.index) }}</span>
+        <span class="section-index__body">
+          <span class="section-index__title">{{ page.title }}</span>
+          <span class="section-index__desc">{{ page.description }}</span>
+        </span>
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</article>
+{% endblock %}

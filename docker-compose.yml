@@ -1,0 +1,57 @@
+services:
+  # ---- Sitio (Zola) ----
+  zola:
+    build: .
+    image: columna-zola:dev
+    container_name: columna-zola
+    ports:
+      - "1111:1111"
+    volumes:
+      - .:/site
+    restart: unless-stopped
+
+  build:
+    build: .
+    image: columna-zola:dev
+    profiles: ["build"]
+    container_name: columna-zola-build
+    user: "${UID:-1000}:${GID:-1000}"
+    volumes:
+      - .:/site
+    entrypoint: ["zola"]
+    command: ["build", "--output-dir", "public", "--force"]
+
+  # ---- Analytics (Python + Jupyter) ----
+  analytics:
+    build:
+      context: ./analytics
+    image: columna-analytics:dev
+    profiles: ["analytics"]
+    container_name: columna-analytics
+    user: "${UID:-1000}:${GID:-1000}"
+    ports:
+      - "8888:8888"
+    working_dir: /work
+    volumes:
+      - .:/work
+    environment:
+      - PYTHONPATH=/work/analytics/scripts
+      - HOME=/tmp/jupyter-home
+      - JUPYTER_CONFIG_DIR=/tmp/jupyter-home/.jupyter
+      - JUPYTER_DATA_DIR=/tmp/jupyter-home/.local/share/jupyter
+      - JUPYTER_RUNTIME_DIR=/tmp/jupyter-home/.local/share/jupyter/runtime
+
+  analytics-build:
+    build:
+      context: ./analytics
+    image: columna-analytics:dev
+    profiles: ["analytics-build"]
+    container_name: columna-analytics-build
+    user: "${UID:-1000}:${GID:-1000}"
+    working_dir: /work
+    volumes:
+      - .:/work
+    environment:
+      - PYTHONPATH=/work/analytics/scripts
+    entrypoint: ["python"]
+    command: ["analytics/scripts/build_all.py"]

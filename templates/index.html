@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<article class="hero">
+  <div class="hero__inner">
+    <p class="hero__eyebrow">Columna de opinión · {{ config.extra.publication_date }}</p>
+    <h1 class="hero__title">{{ section.title }}</h1>
+    <p class="hero__subtitle">{{ section.description }}</p>
+    <div class="hero__epigraph">
+      {{ section.content | safe }}
+    </div>
+  </div>
+</article>
+
+<section class="toc">
+  <div class="toc__inner">
+    <h2 class="toc__title">Índice de secciones</h2>
+    <ol class="toc__list">
+      {% set secciones = get_section(path="secciones/_index.md") %}
+      {% for page in secciones.pages %}
+      <li class="toc__item">
+        <a class="toc__link" href="{{ page.permalink }}">
+          <span class="toc__number">{{ page.extra.seccion | default(value=loop.index) }}</span>
+          <span class="toc__body">
+            <span class="toc__heading">{{ page.title }}</span>
+            <span class="toc__desc">{{ page.description }}</span>
+            <span class="toc__meta">{{ page.extra.lectura_min | default(value="—") }} min de lectura</span>
+          </span>
+        </a>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+{% endblock %}
