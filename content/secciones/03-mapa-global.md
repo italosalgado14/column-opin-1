@@ -42,6 +42,8 @@ lectura_min = 7
 
 {{ chart(id="gini-comparado", caption="Coeficiente de Gini · seis países representativos del marco", source="Fuente: OECD IDD 2022; World Bank para Argentina · ver analytics/scripts/01_gini_comparado.py") }}
 
+{{ chart(id="confianza-gobierno", caption="Confianza en el gobierno nacional · seis países representativos del marco", source="Fuente: Wellcome Global Monitor 2020 vía Our World in Data · ver analytics/scripts/02_confianza_gobierno.py") }}
+
 ### Dinamarca (cercanía paradójica)
 
 - **A favor**: Estado social robusto, educación pública potente, laicismo avanzado, gestión técnica

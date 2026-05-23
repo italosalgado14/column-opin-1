@@ -3,72 +3,72 @@
     {
       "customdata": [
         [
-          2022,
-          "OECD IDD",
-          "Cercanos"
-        ],
-        [
-          2023,
-          "OECD IDD",
-          "Cercanos"
-        ],
-        [
-          2022,
-          "OECD IDD",
-          "Cercanos"
-        ],
-        [
-          2023,
-          "OECD IDD",
+          2020,
+          "Wellcome Global Monitor / OWID",
           "Lejanos"
         ],
         [
-          2024,
-          "World Bank",
+          2020,
+          "Wellcome Global Monitor / OWID",
           "Lejanos"
         ],
         [
-          2022,
-          "OECD IDD",
+          2020,
+          "Wellcome Global Monitor / OWID",
           "Lejanos"
+        ],
+        [
+          2020,
+          "Wellcome Global Monitor / OWID",
+          "Cercanos"
+        ],
+        [
+          2020,
+          "Wellcome Global Monitor / OWID",
+          "Cercanos"
+        ],
+        [
+          2020,
+          "Wellcome Global Monitor / OWID",
+          "Cercanos"
         ]
       ],
-      "hovertemplate": "<b>%{y}</b><br>Gini: %{x:.3f}<br>Año: %{customdata[0]}<br>Fuente: %{customdata[1]}<br>Grupo: %{customdata[2]}<extra></extra>",
+      "hovertemplate": "<b>%{y}</b><br>Confianza: %{x:.1f}%<br>Año: %{customdata[0]}<br>Fuente: %{customdata[1]}<br>Grupo: %{customdata[2]}<extra></extra>",
       "marker": {
         "color": [
-          "#1f3a8a",
-          "#1f3a8a",
-          "#1f3a8a",
           "#8a2424",
           "#8a2424",
-          "#8a2424"
+          "#8a2424",
+          "#1f3a8a",
+          "#1f3a8a",
+          "#1f3a8a"
         ]
       },
       "orientation": "h",
       "text": [
-        "0.262",
-        "0.269",
-        "0.276",
-        "0.394",
-        "0.424",
-        "0.448"
+        "27.7%",
+        "43.9%",
+        "52.5%",
+        "79.3%",
+        "80.7%",
+        "94.3%"
       ],
       "textposition": "outside",
       "x": [
-        0.262,
-        0.269,
-        0.276,
-        0.394,
-        0.424,
-        0.448
+        27.7,
+        43.9,
+        52.5,
+        79.3,
+        80.7,
+        94.3
       ],
       "y": [
-        "Noruega",
-        "Finlandia",
-        "Dinamarca",
-        "Estados Unidos",
+        "Chile",
         "Argentina",
-        "Chile"
+        "Estados Unidos",
+        "Dinamarca",
+        "Finlandia",
+        "Noruega"
       ],
       "type": "bar"
     }
@@ -892,18 +892,19 @@
     },
     "title": {
       "subtitle": {
-        "text": "Países más cercanos vs más lejanos al modelo ilustrado"
+        "text": "% que responde \"mucho\" o \"algo\" — mismos seis países"
       },
-      "text": "Coeficiente de Gini · ingreso disponible"
+      "text": "Confianza en el gobierno nacional"
     },
     "xaxis": {
       "title": {
-        "text": "Gini (0 = igualdad perfecta, 1 = desigualdad máxima)"
+        "text": "Porcentaje de la población"
       },
       "range": [
         0,
-        0.5
-      ]
+        100
+      ],
+      "ticksuffix": "%"
     },
     "yaxis": {
       "title": {
@@ -919,7 +920,7 @@
           "size": 11
         },
         "showarrow": false,
-        "text": "Fuente: OECD IDD y World Bank (Argentina), años 2022–2024",
+        "text": "Fuente: Wellcome Global Monitor vía Our World in Data (2020)",
         "x": 0,
         "xanchor": "left",
         "xref": "paper",

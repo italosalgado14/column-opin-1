@@ -20,6 +20,7 @@ if str(SCRIPTS_DIR) not in sys.path:
 # Cuando agregues un análisis nuevo, súmalo aquí
 MODULES: list[str] = [
     "01_gini_comparado",
+    "02_confianza_gobierno",
 ]
 
 

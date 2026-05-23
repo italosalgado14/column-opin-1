@@ -8,7 +8,7 @@
           "Cercanos"
         ],
         [
-          2022,
+          2023,
           "OECD IDD",
           "Cercanos"
         ],
@@ -18,12 +18,12 @@
           "Cercanos"
         ],
         [
-          2022,
+          2023,
           "OECD IDD",
           "Lejanos"
         ],
         [
-          2022,
+          2024,
           "World Bank",
           "Lejanos"
         ],
@@ -46,21 +46,21 @@
       },
       "orientation": "h",
       "text": [
+        "0.262",
+        "0.269",
         "0.276",
-        "0.276",
-        "0.281",
-        "0.395",
-        "0.413",
-        "0.430"
+        "0.394",
+        "0.424",
+        "0.448"
       ],
       "textposition": "outside",
       "x": [
+        0.262,
+        0.269,
         0.276,
-        0.276,
-        0.281,
-        0.395,
-        0.413,
-        0.43
+        0.394,
+        0.424,
+        0.448
       ],
       "y": [
         "Noruega",
@@ -919,7 +919,7 @@
           "size": 11
         },
         "showarrow": false,
-        "text": "Fuente: OECD IDD (2022) y World Bank para Argentina",
+        "text": "Fuente: OECD IDD y World Bank (Argentina), años 2022–2024",
         "x": 0,
         "xanchor": "left",
         "xref": "paper",

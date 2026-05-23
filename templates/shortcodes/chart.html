@@ -1,7 +1,7 @@
 {# Embeds a Plotly chart by id. JSON must exist at /data/charts/{id}.json #}
 {% set caption = caption | default(value="") %}
 {% set source = source | default(value="") %}
-<figure class="chart" data-chart-id="{{ id }}">
+<figure class="chart" data-chart-id="{{ id }}" data-chart-url="{{ get_url(path='data/charts/' ~ id ~ '.json') }}">
   <div class="chart__plot" id="chart-{{ id }}" role="img" aria-label="{{ caption | default(value=id) }}">
     <noscript>
       <p class="chart__noscript">Este gráfico requiere JavaScript. Datos disponibles en <code>/data/charts/{{ id }}.json</code>.</p>

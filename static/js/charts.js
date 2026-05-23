@@ -12,8 +12,6 @@
   const containers = Array.from(document.querySelectorAll(".chart[data-chart-id]"));
   if (containers.length === 0) return;
 
-  const baseUrl = window.location.origin;
-
   function isDark() {
     const t = document.documentElement.dataset.theme;
     if (t === "dark") return true;
@@ -37,9 +35,11 @@
     const id = container.dataset.chartId;
     const target = container.querySelector(`#chart-${CSS.escape(id)}`);
     const placeholder = target.querySelector(".chart__placeholder");
+    // Shortcode emits an absolute URL via Zola get_url; fallback for legacy.
+    const url = container.dataset.chartUrl || `${window.location.origin}/data/charts/${id}.json`;
 
     try {
-      const res = await fetch(`${baseUrl}/data/charts/${id}.json`, { cache: "no-cache" });
+      const res = await fetch(url, { cache: "no-cache" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const fig = await res.json();
 

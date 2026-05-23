@@ -21,4 +21,14 @@ Cada archivo en este directorio debe tener una entrada aquí.
 - **Descarga manual**: filtrar por TIME = "latest", METHODE = "current", AGE = "TOT".
 - **Para Argentina** (no OCDE): World Bank — <https://data.worldbank.org/indicator/SI.POV.GINI?locations=AR>
 - **Fecha de incorporación**: 2026-05-09
-- **Notas**: para reproducibilidad sin descarga manual, los valores están "hardcoded" en `scripts/01_gini_comparado.py` con la fuente comentada por país. Cuando descargues los CSV reales, reemplaza la lógica por `pd.read_csv("data/raw/gini-oecd.csv")`.
+- **Notas**: el script `scripts/01_gini_comparado.py` ya consume estos CSV directamente (filtros: MEASURE=INC_DISP_GINI, AGE=_T, METHODOLOGY=METH2012, DEFINITION=D_CUR, último año disponible por país).
+
+## `analytics/data/raw/owid-trust-in-government.csv`
+
+- **Descripción**: Porcentaje de personas que confían en el gobierno nacional ("a lot" o "some" en la encuesta Wellcome Global Monitor 2020).
+- **Fuente**: Wellcome Trust (2020) — procesado por Our World in Data.
+- **URL del dataset**: <https://ourworldindata.org/grapher/share-who-trust-government>
+- **Descarga directa (CSV)**: <https://ourworldindata.org/grapher/share-who-trust-government.csv>
+- **Cobertura**: ~106 países, año 2020. Incluye Noruega, Dinamarca, Finlandia, Chile, Estados Unidos y Argentina en un solo archivo.
+- **Fecha de incorporación**: 2026-05-23
+- **Notas**: serie de un solo año (2020), pre-pandemia para varios países y mid-pandemia para otros. Verifica la afirmación "Confianza institucional alta (top 3 mundial)" sobre Noruega.
