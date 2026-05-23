@@ -2,6 +2,9 @@
 
 Sitio estático construido con [Zola](https://www.getzola.org) (generador de sitios en Rust). Diseño editorial inspirado en columnas de prensa clásicas: tipografía serif, columna estrecha, jerarquía clara.
 
+The page URL:
+https://italosalgado14.github.io/column-opin-1/
+
 ## Estructura
 
 ```
