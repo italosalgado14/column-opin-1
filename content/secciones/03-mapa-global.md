@@ -44,6 +44,8 @@ lectura_min = 7
 
 {{ chart(id="confianza-gobierno", caption="Confianza en el gobierno nacional · seis países representativos del marco", source="Fuente: Wellcome Global Monitor 2020 vía Our World in Data · ver analytics/scripts/02_confianza_gobierno.py") }}
 
+{{ chart(id="pisa-matematicas", caption="Desempeño en matemáticas · PISA 2022", source="Fuente: OECD PISA 2022 vía Our World in Data · ver analytics/scripts/03_pisa_matematicas.py") }}
+
 ### Dinamarca (cercanía paradójica)
 
 - **A favor**: Estado social robusto, educación pública potente, laicismo avanzado, gestión técnica

@@ -32,3 +32,13 @@ Cada archivo en este directorio debe tener una entrada aquí.
 - **Cobertura**: ~106 países, año 2020. Incluye Noruega, Dinamarca, Finlandia, Chile, Estados Unidos y Argentina en un solo archivo.
 - **Fecha de incorporación**: 2026-05-23
 - **Notas**: serie de un solo año (2020), pre-pandemia para varios países y mid-pandemia para otros. Verifica la afirmación "Confianza institucional alta (top 3 mundial)" sobre Noruega.
+
+## `analytics/data/raw/owid-pisa-mathematics.csv`
+
+- **Descripción**: Puntaje promedio en matemáticas de estudiantes de 15 años, PISA (2003–2022).
+- **Fuente**: OECD Programme for International Student Assessment (PISA) — procesado por Our World in Data.
+- **URL del dataset**: <https://ourworldindata.org/grapher/pisa-test-score-mean-performance-on-the-mathematics-scale>
+- **Descarga directa (CSV)**: <https://ourworldindata.org/grapher/pisa-test-score-mean-performance-on-the-mathematics-scale.csv>
+- **Cobertura**: ~80 países, varias rondas (2003, 2006, 2009, 2012, 2015, 2018, 2022).
+- **Fecha de incorporación**: 2026-05-23
+- **Notas**: el script toma el año más reciente disponible por país (2022 para los seis del marco). Verifica la afirmación "Educación pública seria, exigente, igualitaria" sobre Noruega.
