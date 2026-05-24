@@ -3,74 +3,410 @@
     {
       "customdata": [
         [
-          2020,
-          "Wellcome Global Monitor / OWID",
-          "Lejanos"
+          2006,
+          2007,
+          "Cercanos"
         ],
         [
-          2020,
-          "Wellcome Global Monitor / OWID",
-          "Lejanos"
+          2008,
+          2010,
+          "Cercanos"
         ],
         [
-          2020,
-          "Wellcome Global Monitor / OWID",
-          "Lejanos"
+          2011,
+          2013,
+          "Cercanos"
         ],
         [
-          2020,
-          "Wellcome Global Monitor / OWID",
+          2014,
+          2016,
+          "Cercanos"
+        ],
+        [
+          2017,
+          2019,
           "Cercanos"
         ],
         [
           2020,
-          "Wellcome Global Monitor / OWID",
+          2022,
           "Cercanos"
         ],
         [
-          2020,
-          "Wellcome Global Monitor / OWID",
+          2023,
+          2025,
           "Cercanos"
         ]
       ],
-      "hovertemplate": "<b>%{y}</b><br>Confianza: %{x:.1f}%<br>Año: %{customdata[0]}<br>Fuente: %{customdata[1]}<br>Grupo: %{customdata[2]}<extra></extra>",
-      "marker": {
-        "color": [
-          "#8a2424",
-          "#8a2424",
-          "#8a2424",
-          "#1f3a8a",
-          "#1f3a8a",
-          "#1f3a8a"
-        ]
+      "hovertemplate": "<b>%{fullData.name}</b><br>Ola: %{customdata[0]}–%{customdata[1]}<br>Confianza: %{y:.1f}%<br>Grupo: %{customdata[2]}<extra></extra>",
+      "line": {
+        "color": "#1f3a8a",
+        "width": 2.2
       },
-      "orientation": "h",
-      "text": [
-        "27.7%",
-        "43.9%",
-        "52.5%",
-        "79.3%",
-        "80.7%",
-        "94.3%"
-      ],
-      "textposition": "outside",
+      "marker": {
+        "size": 7
+      },
+      "mode": "lines+markers",
+      "name": "Noruega",
       "x": [
-        27.7,
-        43.9,
-        52.5,
-        79.3,
-        80.7,
-        94.3
+        2007,
+        2009,
+        2012,
+        2015,
+        2018,
+        2021,
+        2024
       ],
       "y": [
-        "Chile",
-        "Argentina",
-        "Estados Unidos",
-        "Dinamarca",
-        "Finlandia",
-        "Noruega"
+        68.3,
+        54.1,
+        66.3,
+        64.8,
+        66.5,
+        74.6,
+        59.6
       ],
-      "type": "bar"
+      "type": "scatter"
+    },
+    {
+      "customdata": [
+        [
+          2006,
+          2007,
+          "Cercanos"
+        ],
+        [
+          2008,
+          2010,
+          "Cercanos"
+        ],
+        [
+          2011,
+          2013,
+          "Cercanos"
+        ],
+        [
+          2014,
+          2016,
+          "Cercanos"
+        ],
+        [
+          2017,
+          2019,
+          "Cercanos"
+        ],
+        [
+          2020,
+          2022,
+          "Cercanos"
+        ],
+        [
+          2023,
+          2025,
+          "Cercanos"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Ola: %{customdata[0]}–%{customdata[1]}<br>Confianza: %{y:.1f}%<br>Grupo: %{customdata[2]}<extra></extra>",
+      "line": {
+        "color": "#3b6fd9",
+        "width": 2.2
+      },
+      "marker": {
+        "size": 7
+      },
+      "mode": "lines+markers",
+      "name": "Finlandia",
+      "x": [
+        2007,
+        2009,
+        2012,
+        2015,
+        2018,
+        2021,
+        2024
+      ],
+      "y": [
+        75.8,
+        59.3,
+        52.8,
+        50.4,
+        59.7,
+        76.6,
+        69.3
+      ],
+      "type": "scatter"
+    },
+    {
+      "customdata": [
+        [
+          2006,
+          2007,
+          "Cercanos"
+        ],
+        [
+          2008,
+          2010,
+          "Cercanos"
+        ],
+        [
+          2011,
+          2013,
+          "Cercanos"
+        ],
+        [
+          2014,
+          2016,
+          "Cercanos"
+        ],
+        [
+          2017,
+          2019,
+          "Cercanos"
+        ],
+        [
+          2020,
+          2022,
+          "Cercanos"
+        ],
+        [
+          2023,
+          2025,
+          "Cercanos"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Ola: %{customdata[0]}–%{customdata[1]}<br>Confianza: %{y:.1f}%<br>Grupo: %{customdata[2]}<extra></extra>",
+      "line": {
+        "color": "#7aa3e8",
+        "width": 2.2
+      },
+      "marker": {
+        "size": 7
+      },
+      "mode": "lines+markers",
+      "name": "Dinamarca",
+      "x": [
+        2007,
+        2009,
+        2012,
+        2015,
+        2018,
+        2021,
+        2024
+      ],
+      "y": [
+        63.1,
+        62.6,
+        46.6,
+        50.2,
+        61.3,
+        66.8,
+        55.6
+      ],
+      "type": "scatter"
+    },
+    {
+      "customdata": [
+        [
+          2006,
+          2007,
+          "Lejanos"
+        ],
+        [
+          2008,
+          2010,
+          "Lejanos"
+        ],
+        [
+          2011,
+          2013,
+          "Lejanos"
+        ],
+        [
+          2014,
+          2016,
+          "Lejanos"
+        ],
+        [
+          2017,
+          2019,
+          "Lejanos"
+        ],
+        [
+          2020,
+          2022,
+          "Lejanos"
+        ],
+        [
+          2023,
+          2025,
+          "Lejanos"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Ola: %{customdata[0]}–%{customdata[1]}<br>Confianza: %{y:.1f}%<br>Grupo: %{customdata[2]}<extra></extra>",
+      "line": {
+        "color": "#8a2424",
+        "width": 2.2
+      },
+      "marker": {
+        "size": 7
+      },
+      "mode": "lines+markers",
+      "name": "Estados Unidos",
+      "x": [
+        2007,
+        2009,
+        2012,
+        2015,
+        2018,
+        2021,
+        2024
+      ],
+      "y": [
+        47.6,
+        43.4,
+        34.0,
+        33.1,
+        35.4,
+        39.3,
+        29.4
+      ],
+      "type": "scatter"
+    },
+    {
+      "customdata": [
+        [
+          2006,
+          2007,
+          "Lejanos"
+        ],
+        [
+          2008,
+          2010,
+          "Lejanos"
+        ],
+        [
+          2011,
+          2013,
+          "Lejanos"
+        ],
+        [
+          2014,
+          2016,
+          "Lejanos"
+        ],
+        [
+          2017,
+          2019,
+          "Lejanos"
+        ],
+        [
+          2020,
+          2022,
+          "Lejanos"
+        ],
+        [
+          2023,
+          2025,
+          "Lejanos"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Ola: %{customdata[0]}–%{customdata[1]}<br>Confianza: %{y:.1f}%<br>Grupo: %{customdata[2]}<extra></extra>",
+      "line": {
+        "color": "#c46a3a",
+        "width": 2.2
+      },
+      "marker": {
+        "size": 7
+      },
+      "mode": "lines+markers",
+      "name": "Chile",
+      "x": [
+        2007,
+        2009,
+        2012,
+        2015,
+        2018,
+        2021,
+        2024
+      ],
+      "y": [
+        50.4,
+        48.6,
+        32.4,
+        30.1,
+        25.2,
+        23.0,
+        33.5
+      ],
+      "type": "scatter"
+    },
+    {
+      "customdata": [
+        [
+          2006,
+          2007,
+          "Lejanos"
+        ],
+        [
+          2008,
+          2010,
+          "Lejanos"
+        ],
+        [
+          2011,
+          2013,
+          "Lejanos"
+        ],
+        [
+          2014,
+          2016,
+          "Lejanos"
+        ],
+        [
+          2017,
+          2019,
+          "Lejanos"
+        ],
+        [
+          2020,
+          2022,
+          "Lejanos"
+        ],
+        [
+          2023,
+          2025,
+          "Lejanos"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Ola: %{customdata[0]}–%{customdata[1]}<br>Confianza: %{y:.1f}%<br>Grupo: %{customdata[2]}<extra></extra>",
+      "line": {
+        "color": "#5a1212",
+        "width": 2.2
+      },
+      "marker": {
+        "size": 7
+      },
+      "mode": "lines+markers",
+      "name": "Argentina",
+      "x": [
+        2007,
+        2009,
+        2012,
+        2015,
+        2018,
+        2021,
+        2024
+      ],
+      "y": [
+        46.2,
+        30.4,
+        48.7,
+        40.2,
+        28.0,
+        34.6,
+        33.7
+      ],
+      "type": "scatter"
     }
   ],
   "layout": {
@@ -892,13 +1228,26 @@
     },
     "title": {
       "subtitle": {
-        "text": "% que responde \"mucho\" o \"algo\" — mismos seis países"
+        "text": "% que responde \"sí\" — promedios trianuales, 2007–2024"
       },
-      "text": "Confianza en el gobierno nacional"
+      "text": "Confianza en el gobierno nacional · evolución temporal"
+    },
+    "legend": {
+      "orientation": "h",
+      "yanchor": "bottom",
+      "y": -0.3,
+      "xanchor": "center",
+      "x": 0.5
     },
     "xaxis": {
       "title": {
-        "text": "Porcentaje de la población"
+        "text": "Año (centro de cada ola)"
+      },
+      "dtick": 2
+    },
+    "yaxis": {
+      "title": {
+        "text": "Porcentaje de la población (15+ años)"
       },
       "range": [
         0,
@@ -906,13 +1255,9 @@
       ],
       "ticksuffix": "%"
     },
-    "yaxis": {
-      "title": {
-        "text": ""
-      }
-    },
-    "showlegend": false,
-    "height": 400,
+    "showlegend": true,
+    "height": 460,
+    "hovermode": "x unified",
     "annotations": [
       {
         "font": {
@@ -920,11 +1265,11 @@
           "size": 11
         },
         "showarrow": false,
-        "text": "Fuente: Wellcome Global Monitor vía Our World in Data (2020)",
+        "text": "Fuente: OECD How's Life (Future Well-being, medida 14_3) sobre Gallup World Poll",
         "x": 0,
         "xanchor": "left",
         "xref": "paper",
-        "y": -0.22,
+        "y": -0.42,
         "yanchor": "top",
         "yref": "paper"
       }

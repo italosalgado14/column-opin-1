@@ -31,7 +31,17 @@ Cada archivo en este directorio debe tener una entrada aquí.
 - **Descarga directa (CSV)**: <https://ourworldindata.org/grapher/share-who-trust-government.csv>
 - **Cobertura**: ~106 países, año 2020. Incluye Noruega, Dinamarca, Finlandia, Chile, Estados Unidos y Argentina en un solo archivo.
 - **Fecha de incorporación**: 2026-05-23
-- **Notas**: serie de un solo año (2020), pre-pandemia para varios países y mid-pandemia para otros. Verifica la afirmación "Confianza institucional alta (top 3 mundial)" sobre Noruega.
+- **Notas**: serie de un solo año (2020). Reemplazada por `oecd-hsl-trust-in-government.csv` (serie temporal) en el script `02_confianza_gobierno.py`. Se conserva como referencia cruzada.
+
+## `analytics/data/raw/oecd-hsl-trust-in-government.csv`
+
+- **Descripción**: Confianza en el gobierno nacional, % de la población de 15+ años. Serie temporal 2006-2025, promedios trianuales (cada valor cubre una ola de ~3 años del Gallup World Poll).
+- **Fuente**: OECD How's Life — Future Well-being, dataflow `DSD_HSL@DF_HSL_FWB`, medida `14_3` ("Trust in government"). Construida sobre Gallup World Poll.
+- **Descarga directa (CSV)**: <https://sdmx.oecd.org/public/rest/data/OECD.WISE.WDP,DSD_HSL@DF_HSL_FWB,/?format=csvfilewithlabels&startPeriod=2006>
+- **Filtros aplicados al guardar**: `MEASURE=14_3`, `UNIT_MEASURE=PT_POP_Y_GE15`, `AGE=_T`, `SEX=_T`, `EDUCATION_LEV=_T`, `REF_AREA` ∈ {NOR, FIN, DNK, USA, CHL, ARG}.
+- **Cobertura**: 6 países × 20 años = 120 filas. Todos los seis países del marco tienen cobertura anual completa 2006-2025.
+- **Fecha de incorporación**: 2026-05-23
+- **Notas**: el script `02_confianza_gobierno.py` deduplica bloques de años con el mismo valor y conserva un punto por ola, anclado al año central del bloque.
 
 ## `analytics/data/raw/owid-pisa-mathematics.csv`
 

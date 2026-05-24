@@ -40,9 +40,9 @@ lectura_min = 7
 - **Confianza institucional alta** (top 3 mundial)
 - **Salvedades**: Progress Party con 24% (presión populista real); financiamiento del modelo basado en petróleo
 
-{{ chart(id="gini-comparado", caption="Coeficiente de Gini · seis países representativos del marco", source="Fuente: OECD IDD 2022; World Bank para Argentina · ver analytics/scripts/01_gini_comparado.py") }}
+{{ chart(id="gini-comparado", caption="Coeficiente de Gini · evolución 2000–último año disponible, seis países del marco", source="Fuente: OECD IDD (anual); World Bank SI.POV.GINI para Argentina · ver analytics/scripts/01_gini_comparado.py") }}
 
-{{ chart(id="confianza-gobierno", caption="Confianza en el gobierno nacional · seis países representativos del marco", source="Fuente: Wellcome Global Monitor 2020 vía Our World in Data · ver analytics/scripts/02_confianza_gobierno.py") }}
+{{ chart(id="confianza-gobierno", caption="Confianza en el gobierno nacional · evolución 2006–últimos datos, promedios trianuales", source="Fuente: OECD How's Life (Future Well-being, medida 14_3) sobre Gallup World Poll · ver analytics/scripts/02_confianza_gobierno.py") }}
 
 {{ chart(id="pisa-matematicas", caption="Desempeño en matemáticas · PISA 2022", source="Fuente: OECD PISA 2022 vía Our World in Data · ver analytics/scripts/03_pisa_matematicas.py") }}
 

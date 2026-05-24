@@ -3,74 +3,680 @@
     {
       "customdata": [
         [
-          2022,
           "OECD IDD",
           "Cercanos"
         ],
         [
-          2023,
           "OECD IDD",
           "Cercanos"
         ],
         [
-          2022,
           "OECD IDD",
           "Cercanos"
         ],
         [
-          2023,
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Año: %{x}<br>Gini: %{y:.3f}<br>Fuente: %{customdata[0]}<br>Grupo: %{customdata[1]}<extra></extra>",
+      "line": {
+        "color": "#1f3a8a",
+        "width": 2.2
+      },
+      "marker": {
+        "size": 6
+      },
+      "mode": "lines+markers",
+      "name": "Noruega",
+      "x": [
+        2004,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "y": [
+        0.285,
+        0.25,
+        0.245,
+        0.249,
+        0.25,
+        0.253,
+        0.252,
+        0.257,
+        0.272,
+        0.262,
+        0.262,
+        0.262,
+        0.261,
+        0.263,
+        0.285,
+        0.262
+      ],
+      "type": "scatter"
+    },
+    {
+      "customdata": [
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Año: %{x}<br>Gini: %{y:.3f}<br>Fuente: %{customdata[0]}<br>Grupo: %{customdata[1]}<extra></extra>",
+      "line": {
+        "color": "#3b6fd9",
+        "width": 2.2
+      },
+      "marker": {
+        "size": 6
+      },
+      "mode": "lines+markers",
+      "name": "Finlandia",
+      "x": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "y": [
+        0.254,
+        0.262,
+        0.258,
+        0.261,
+        0.266,
+        0.265,
+        0.268,
+        0.269,
+        0.264,
+        0.259,
+        0.264,
+        0.264,
+        0.26,
+        0.262,
+        0.257,
+        0.26,
+        0.259,
+        0.266,
+        0.269,
+        0.273,
+        0.265,
+        0.273,
+        0.274,
+        0.269
+      ],
+      "type": "scatter"
+    },
+    {
+      "customdata": [
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ],
+        [
+          "OECD IDD",
+          "Cercanos"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Año: %{x}<br>Gini: %{y:.3f}<br>Fuente: %{customdata[0]}<br>Grupo: %{customdata[1]}<extra></extra>",
+      "line": {
+        "color": "#7aa3e8",
+        "width": 2.2
+      },
+      "marker": {
+        "size": 6
+      },
+      "mode": "lines+markers",
+      "name": "Dinamarca",
+      "x": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "y": [
+        0.25,
+        0.249,
+        0.254,
+        0.256,
+        0.263,
+        0.261,
+        0.264,
+        0.263,
+        0.268,
+        0.269,
+        0.273,
+        0.276
+      ],
+      "type": "scatter"
+    },
+    {
+      "customdata": [
+        [
           "OECD IDD",
           "Lejanos"
         ],
         [
-          2024,
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Año: %{x}<br>Gini: %{y:.3f}<br>Fuente: %{customdata[0]}<br>Grupo: %{customdata[1]}<extra></extra>",
+      "line": {
+        "color": "#8a2424",
+        "width": 2.2
+      },
+      "marker": {
+        "size": 6
+      },
+      "mode": "lines+markers",
+      "name": "Estados Unidos",
+      "x": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "y": [
+        0.396,
+        0.394,
+        0.39,
+        0.391,
+        0.39,
+        0.393,
+        0.395,
+        0.377,
+        0.375,
+        0.396,
+        0.394
+      ],
+      "type": "scatter"
+    },
+    {
+      "customdata": [
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ],
+        [
+          "OECD IDD",
+          "Lejanos"
+        ]
+      ],
+      "hovertemplate": "<b>%{fullData.name}</b><br>Año: %{x}<br>Gini: %{y:.3f}<br>Fuente: %{customdata[0]}<br>Grupo: %{customdata[1]}<extra></extra>",
+      "line": {
+        "color": "#c46a3a",
+        "width": 2.2
+      },
+      "marker": {
+        "size": 6
+      },
+      "mode": "lines+markers",
+      "name": "Chile",
+      "x": [
+        2009,
+        2011,
+        2013,
+        2015,
+        2017,
+        2020,
+        2022
+      ],
+      "y": [
+        0.48,
+        0.471,
+        0.465,
+        0.454,
+        0.46,
+        0.496,
+        0.448
+      ],
+      "type": "scatter"
+    },
+    {
+      "customdata": [
+        [
           "World Bank",
           "Lejanos"
         ],
         [
-          2022,
-          "OECD IDD",
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
+          "Lejanos"
+        ],
+        [
+          "World Bank",
           "Lejanos"
         ]
       ],
-      "hovertemplate": "<b>%{y}</b><br>Gini: %{x:.3f}<br>Año: %{customdata[0]}<br>Fuente: %{customdata[1]}<br>Grupo: %{customdata[2]}<extra></extra>",
-      "marker": {
-        "color": [
-          "#1f3a8a",
-          "#1f3a8a",
-          "#1f3a8a",
-          "#8a2424",
-          "#8a2424",
-          "#8a2424"
-        ]
+      "hovertemplate": "<b>%{fullData.name}</b><br>Año: %{x}<br>Gini: %{y:.3f}<br>Fuente: %{customdata[0]}<br>Grupo: %{customdata[1]}<extra></extra>",
+      "line": {
+        "color": "#5a1212",
+        "width": 2.2
       },
-      "orientation": "h",
-      "text": [
-        "0.262",
-        "0.269",
-        "0.276",
-        "0.394",
-        "0.424",
-        "0.448"
-      ],
-      "textposition": "outside",
+      "marker": {
+        "size": 6
+      },
+      "mode": "lines+markers",
+      "name": "Argentina",
       "x": [
-        0.262,
-        0.269,
-        0.276,
-        0.394,
-        0.424,
-        0.448
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
       ],
       "y": [
-        "Noruega",
-        "Finlandia",
-        "Dinamarca",
-        "Estados Unidos",
-        "Argentina",
-        "Chile"
+        0.51,
+        0.533,
+        0.538,
+        0.51,
+        0.485,
+        0.478,
+        0.464,
+        0.463,
+        0.45,
+        0.438,
+        0.437,
+        0.427,
+        0.414,
+        0.411,
+        0.418,
+        0.423,
+        0.414,
+        0.417,
+        0.433,
+        0.427,
+        0.424,
+        0.407,
+        0.424,
+        0.424
       ],
-      "type": "bar"
+      "type": "scatter"
     }
   ],
   "layout": {
@@ -892,26 +1498,35 @@
     },
     "title": {
       "subtitle": {
-        "text": "Países más cercanos vs más lejanos al modelo ilustrado"
+        "text": "Países cercanos vs lejanos al modelo ilustrado, 2000–2024"
       },
-      "text": "Coeficiente de Gini · ingreso disponible"
+      "text": "Coeficiente de Gini · evolución temporal"
+    },
+    "legend": {
+      "orientation": "h",
+      "yanchor": "bottom",
+      "y": -0.3,
+      "xanchor": "center",
+      "x": 0.5
     },
     "xaxis": {
+      "title": {
+        "text": "Año"
+      },
+      "dtick": 2
+    },
+    "yaxis": {
       "title": {
         "text": "Gini (0 = igualdad perfecta, 1 = desigualdad máxima)"
       },
       "range": [
-        0,
-        0.5
+        0.2,
+        0.55
       ]
     },
-    "yaxis": {
-      "title": {
-        "text": ""
-      }
-    },
-    "showlegend": false,
-    "height": 400,
+    "showlegend": true,
+    "height": 460,
+    "hovermode": "x unified",
     "annotations": [
       {
         "font": {
@@ -919,11 +1534,11 @@
           "size": 11
         },
         "showarrow": false,
-        "text": "Fuente: OECD IDD y World Bank (Argentina), años 2022–2024",
+        "text": "Fuente: OECD IDD (ingreso disponible) y World Bank SI.POV.GINI (Argentina, normalizado 0-1)",
         "x": 0,
         "xanchor": "left",
         "xref": "paper",
-        "y": -0.22,
+        "y": -0.42,
         "yanchor": "top",
         "yref": "paper"
       }
